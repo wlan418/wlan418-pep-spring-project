@@ -13,6 +13,7 @@ import com.example.repository.MessageRepository;
 public class MessageService {
     @Autowired
     private MessageRepository messageRepository;
+    
     public MessageService(MessageRepository mRepository) {
             messageRepository = mRepository;
     }
